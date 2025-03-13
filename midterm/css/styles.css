@@ -1,0 +1,130 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+section { 
+    padding: 20px;
+    
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero div {
+    margin-left: 50px;
+}
+
+.hero div button {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    width: 181px;
+        height: 40px;
+}
+
+
+
+nav {
+    background-color: gray;
+    display: flex;
+    height: 51px;
+    align-items: center;
+    color: black;
+    padding: 20px;
+    
+}
+
+nav ul {
+    display: flex;
+    
+
+    gap: 40px;
+    list-style: none;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+.activeBold {
+    font-weight: bold;
+
+}
+
+.activeUnderline {
+    
+    text-decoration: underline;
+
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    border-bottom: 5px  solid black;
+    width: 594px;
+}
+
+.products div {
+    display: flex;
+    gap: 100px;
+}
+
+.products div img {
+    height: 200px;
+    width: 200px;
+}
+.products button {
+    background-color: black;
+    color: white;
+    width: 181px;
+    height: 40px;
+}
+
+.news h2 {
+    border-bottom: 5px solid black;
+        width: 341px;
+}
+
+.news div {
+    display: flex;
+    gap: 100px;
+}
+.images {
+    display: flex;
+    gap: 100px;
+}
+
+.images div img {
+    height: 200px;
+        width: 300px;
+}
+
+.text {
+    display: flex;
+    gap: 100px;
+}
+
+.text h3 {
+    width: 300px;
+    
+}
+
+.text p {
+    width: 300px;
+}
