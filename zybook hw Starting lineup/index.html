@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Lineup</title>
+  </head>
+  <body>
+    <h1>Starting Lineup</h1>
+
+    <form action="true" method="post">
+      <fieldset>
+        <legend>Status:</legend>
+        <input type="radio" id="draft" name="status" value="draft" />
+        <label for="draft">Draft</label><br />
+
+        <input type="radio" id="final" name="status" value="final" checked />
+        <label for="final">Final</label><br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+
+      <label for="gameDate">Date:</label>
+      <select id="gameDate" name="gameDate">
+        <option value="March 20">March 20</option>
+        <option value="March 24">March 24</option>
+        <option value="April 2">April 2</option>
+        <option value="April 6">April 6</option>
+        <option value="April 13">April 13</option>
+      </select>
+
+      <fieldset>
+        <legend>Players:</legend>
+        <input
+          type="checkbox"
+          id="aaravagarwal"
+          name="player"
+          value="Aarav Agarwal"
+        />
+        <label for="aaravagarwal">Aarav Agarwal</label><br />
+
+        <input
+          type="checkbox"
+          id="avajohnson"
+          name="player"
+          value="Ava Johnson"
+        />
+        <label for="avajohnson">Ava Johnson</label><br />
+
+        <input
+          type="checkbox"
+          id="julioortiz"
+          name="player"
+          value="Julio Ortiz"
+        />
+        <label for="julio ortiz">Julio Ortiz</label><br />
+
+        <input
+          type="checkbox"
+          id="liamrubio"
+          name="player"
+          value="Liam Rubio"
+        />
+        <label for="liam rubio">Liam Rubio</label><br />
+
+        <input
+          type="checkbox"
+          id="emmawitherspoon"
+          name="player"
+          value="Emma Witherspoon"
+        />
+        <label for="emma witherspoon">Emma Witherspoon</label><br />
+      </fieldset>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

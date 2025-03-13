@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join a social network</title>
+  </head>
+  <body>
+    <h1>Join a social network</h1>
+    <form action="POST">
+      <div>
+        <label for="fullName">
+          Full name:<input required type="text" name="fullName" id="fullName" />
+        </label>
+      </div>
+
+      <div>
+        <label for="email">
+          Email address:<input required type="text" name="email" id="email" />
+        </label>
+      </div>
+
+      <div>
+        <label for="about">
+          About you:<textarea
+            cols="50"
+            rows="3"
+            name="about"
+            id="about"
+          ></textarea>
+        </label>
+      </div>
+      <div>
+        <label for="picture"
+          >Photo:<input type="file" name="picture" id="picture" />
+        </label>
+      </div>
+      <div>
+        <label for="submit">
+          <input type="submit" value="Submit" />
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
