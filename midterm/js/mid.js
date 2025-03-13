@@ -2,21 +2,34 @@ const products = [
       {
         
         image: 'images/i210-midterm-product1.webp',
-        title: 'Product 1',
-        description: 'Description for product 1'
+        title: 'My First Fire'
       },
       {
         
           image: 'images/i210-midterm-product2.webp',
-          title: 'Product 2',
-        description: 'Description for product 2'
+          title: 'Nap Sack',
       },
       {
         
-          image: 'https://via.placeholder.com/200x150?text=Product+3',
-          title: 'Product 3',
-        description: 'Description for product 3'
-      }
+          image: 'images/i210-midterm-product3.webp',
+          title: 'Hot Tub Wildlife Feeder'
+  },
+      {
+        
+          image: 'images/i210-midterm-product4.webp',
+          title: 'Toilet Meadow'
+  },
+      {
+        
+          image: 'images/i210-midterm-product5.webp',
+          title: 'Pudding Pouch'
+  },
+      {
+        
+          image: 'images/i210-midterm-product6.webp',
+          title: 'My Handy Hand'
+  }
+      
      
 ];
     
