@@ -2,12 +2,12 @@
 
 ### Story Summary
 
-Brief description of your what your story is about and why you chose that topic.
+My story is about how a shopping trip can be a fun learning experience.
 
 ### Key Takeaways
 
-Brief description of understanding. Use any combination of markdown techniques.
+So I do and don't understand somethings. I used an array to mostly drive the story but didn't know how to keep the data from it. Other than that I put a decent amount of time in the story and think it's fun.
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
+[Blog Page](https://github.com/gamcruz/Info-Infrustructure-sp25/blob/main/homework-4/index.html)
